@@ -1,0 +1,17 @@
+{
+  "name": "pingapi",
+  "author": "Frank",  
+  "version": "2.1",
+  "description": "Une api qui permet de savoir si un site ou une ip est en ligne et connaitre sa latence",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jjg-ping": "^1.0.3"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
